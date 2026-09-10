@@ -1,0 +1,466 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border box;
+}
+.body{
+    background-color: #22d3ee;
+    font-family: sans-serif;
+    color: #4169e1;
+    line-height: 1.6;
+}
+.main-container{
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: 350px 1fr;
+    gap: 10px;
+    padding-top: 40px;
+    margin: auto;
+    padding-right: 20px;
+}
+.sidebar{
+    height: 120vh;
+    background-color:  #101426;
+    border: 1px solid pink;
+    border-radius: 16px;
+    padding-top: 40px;
+}
+.main-content{
+    height: 380vh;
+    background-color: #101426;
+     border: 1px solid pink;
+    border-radius: 16px;
+    width: 900px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.profile{
+    text-align: center;
+}
+
+
+.profile img{
+    height: 125px;
+    width: 120px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: url("chhavi\ jain.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    
+
+}
+.profile h2{
+    font-size: 1.5rem;
+    color: #5A69EA;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}
+.profile p{
+    color: white;
+    font-size: 0.9rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
+    margin-top: 10px;
+
+}
+/* contact information */
+.contact{
+    margin-top: 30px;
+    border: 1.5px solid #3a3a3a;
+    padding-top: 30px;
+}
+.label{
+    color: white;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.location p{
+    color: #5A69EA;
+    font-weight: 500;
+    margin-left: 8px;
+}
+.location{
+      margin-bottom: 30px;
+}
+.contact a{
+    color: #5A69EA;
+    text-decoration: none;
+    padding: 8px;
+    margin-top: 20px;
+}
+.email,.phone,.location{
+    margin-bottom: 25px;
+}
+.social-media{
+    color: white;
+    padding-top: 20px;
+    display: block;
+    margin-left: 10px;
+    text-align: center;
+    height: 20px;
+}
+.social-media a{
+    gap: 30px;
+    color:white ;
+    height: 20px;
+    font-size:23px ;
+    transition: color 0.4s ease;
+    
+}
+.social-media a:hover{
+    color: #5A69EA;
+}
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    margin-right: 100px;
+    font-size: 15px;
+    color: white;
+    border-bottom: 1.5px solid #3a3a3a;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+
+}
+#navbar a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.4s ease-in-out;
+     margin-top: 30px;
+    padding-top: 30px;
+}
+#navbar a:hover{
+    color: #4169e1;
+}
+#About h2{
+    color: #5A69EA;
+    font-size: 30px;
+    margin-left:10px ;
+    margin-bottom: 6px;
+}
+#About p{
+    color: white;
+    font-size: 14px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 35px;
+    margin-left: 10px;
+}
+.Line{
+    width:130px;
+    height: 5px;
+    background-color: aliceblue;
+    margin-bottom: 25px;
+    margin-left: 9px;
+}
+#Skills h2{
+    color: #5A69EA;
+    font-size: 30px;
+    margin-left:10px ;
+    margin-bottom: 6px;
+    margin-top: 20px;
+}
+.skills-Line{
+    width: 80px;
+    height: 5px;
+    background-color: aliceblue;
+    margin-bottom: 25px;
+    margin-left: 9px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
+    gap: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.item i{
+    font-size: 99px;
+    color: aliceblue;
+    margin-left: -18px;
+    margin-top: -10px;
+    border: 2px solid #3a3a3a;
+    background-color: #5A69EA;
+     transition: color 0.4s ease-in-out;
+    
+}
+.item i:hover{
+    color: #101426;
+    cursor: pointer;
+     transform: scale(1.1);
+    opacity: 0.8;
+}
+.c-item{
+    background-image: url("c\ wes.png");
+    height: 105px;
+    width: 110px;
+    background-color: #5A69EA;
+    background-size: contain;
+   background-repeat: no-repeat;
+   align-items: center;
+   display: flex;
+   margin-top: -34px;
+   border: 2px solid #3a3a3a;
+    gap: 40px;
+     transition: filter 0.4s ease-in-out;
+     background-position: center;
+
+}
+.c-item:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+    cursor: pointer;
+    color: #101426;
+}
+.item h3{
+    color: #5A69EA;
+    align-items: center;
+    margin-top: 8px;
+    margin-left: -8px;
+
+}
+.cpro-item{
+    background-image: url("c++.png");
+     background-size: contain;
+   background-repeat: no-repeat;
+   align-items: center;
+   height: 108px;
+    width: 110px;
+    background-color: aliceblue;
+    margin-top: -34px;
+    text-align: center;
+    border: 2px solid #3a3a3a;
+    background-color: #5A69EA;
+}
+.cpro-item:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+    cursor: pointer;
+    color: #101426;
+}
+.c-item h3{
+    margin-top: 135px;
+    color:#5A69EA;
+    font-size: 20px;
+    display: flex;
+    margin-left: -30px;
+    text-align: center;
+    white-space: nowrap;
+}
+.cpro-item h3{
+     margin-top: 111px;
+    color:#5A69EA;
+    font-size: 20px;
+    display: flex;
+    margin-left: 25px;
+
+}
+#Education h2{
+    color: #5A69EA;
+    font-size: 30px;
+    margin-left:10px ;
+    margin-bottom: 6px;
+    margin-top: 25px;
+}
+.Education-Line{
+    width: 135px;
+    height: 5px;
+    background-color: aliceblue;
+    margin-bottom: 25px;
+    margin-left: 9px;
+}
+.edtech{
+    color: aliceblue;
+    padding-left: 20px;
+
+}
+.year{
+    font-size: 0.8rem;
+    color: #5A69EA;
+    margin-bottom: 5px;
+}
+.tenth{
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.school{
+    font-style: italic;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+.learning{
+    color: aliceblue;
+    font-size: 1.3rem;
+}
+ .marks{
+     color: #4169e1;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+ }
+ .recent{
+    color: #4169e1;
+    font-size: 1rem;
+    margin-bottom: 5px;
+ }
+ .edrec p{
+    font-size: 1.3rem;
+    font-weight: 400;
+ }
+ .cgpa{
+    color: #4169e1;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.6rem;
+    font-weight: 400;
+ }
+ #portfolio h2{
+    color: #5A69EA;
+    font-size: 30px;
+    margin-left:10px ;
+    margin-bottom: 6px;
+    margin-top: 25px;
+}
+.portfolio-Line{
+    width: 124px;
+    height: 5px;
+    background-color: aliceblue;
+    margin-bottom: 25px;
+    margin-left: 9px;
+}
+.project{
+    display: grid;
+    gap: 25px;
+    transition: transform 0.5s ease,box-shadow 0.5s ease;
+
+}
+
+.card{
+    background-image:url("community-map.webp");
+    height: 190px;
+    width: 190px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    padding-left: 80px;
+    border-radius: 12px;
+    border: 2px solid #3a3a3a;
+    background-position: center;
+    margin: 0 auto;
+    transition: transform 0.7s ease,box-shadow 0.5s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+    cursor: pointer;
+    color: #101426;
+}
+.project1 h3{
+    color: aliceblue;
+    margin-top: 8px;
+    margin-left: 350px;
+    font-size: 1.5rem;
+    
+}
+.project1 p{
+    color: #5A69EA;
+    font-size:1.1rem ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 11px;
+}
+.border{
+   border: 2px solid transparent;
+}
+.border:hover{
+   border: 2px solid white;
+}
+.card1{
+    background-image: url("Best-Portfolio-Website-Builders.webp");
+    height: 190px;
+    width: 190px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    padding-left: 80px;
+    border-radius: 12px;
+    border: 2px solid #3a3a3a;
+    background-position: center;
+    margin: 0 auto;
+    transition: transform 0.7s ease,box-shadow 0.5s ease;
+
+
+}
+.card1:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+    cursor: pointer;
+    color: #101426;
+}
+.project2 h3{
+ color: aliceblue;
+    margin-top: 11px;
+    margin-left: 300px;
+    font-size: 1.5rem;
+}
+.project2 p{
+       color: #5A69EA;
+    font-size:1.1rem ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 6px;   
+}
+.border p{
+   border: 2px solid transparent;
+}
+.border:hover{
+   border: 2px solid white;
+}
+.project1 span{
+    background-color: aliceblue;
+    color: #5A69EA;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    margin-right: 5px;
+    display: inline-block;
+    margin-top: 9px;
+}
+.project2 span{
+    background-color: aliceblue;
+    color: #5A69EA;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    margin-right: 5px;
+    display: inline-block;
+    margin-top: 9px;
+}
+.border1{
+   border: 2px solid transparent;
+}
+.border1:hover{
+   border: 2px solid #5A69EA;
+}
+.thanku{
+    color: cyan;
+    font-size: 4.0rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 315px;
+    margin-top: 12px;
+    transition: transform 0.7s ease,box-shadow 0.5s ease;
+
+
+}
+.thanku:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+    cursor: pointer;
+    color: #5A69EA;
+}
+
